@@ -11,7 +11,7 @@
  color:gainsboro;
 }
 
-.nav-items {
+.navbar-nav {
   display:flex;
   justify-items: center;
   justify-content: space-evenly;
