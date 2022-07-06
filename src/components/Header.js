@@ -1,35 +1,25 @@
 import React from 'react';
 
 
-const Header = () => {
+function Header(props) {
+    const tabs = ['Home', 'About', 'Portfolio', 'Contact', 'Resume'];
     return (
-        <div className="header">
-           <nav class="navbar navbar-expand-sm bg-light">
-
-<div class="container-fluid">
-  Christopher James Hoke
-  <ul class="navbar-nav">
-  <li class="nav-item">
-      <a class="nav-link" href="home">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="aboutme">About Me</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="portfolio">Portfolio</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="contact">Contact</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="resume">Resume</a>
-    </li>
-  </ul>
-</div>
-
-</nav>
-        </div>
-    )
+      <ul className="nav nav-tabs">
+        {tabs.map(tab => (
+          <li className="nav-item" key={tab}>
+            <a
+              href={'#' + tab.toLowerCase()}
+              onClick={() => props.handlePageChange(tab)}
+              className={
+                props.currentPage === tab ? 'nav-link active' : 'nav-link'
+              }
+            >
+              {tab}
+            </a>
+          </li>
+        ))}
+      </ul>
+    );
 }
 
 export default Header
