@@ -2,7 +2,7 @@ import React from 'react';
 
 
 function Header(props) {
-    const tabs = ['Home', 'About', 'Portfolio', 'Contact', 'Resume'];
+    const tabs = ['Home', 'About', 'Projects', 'Contact', 'Resume'];
     return (
       <ul className="nav nav-tabs">
         {tabs.map(tab => (
