@@ -3,11 +3,21 @@ import React from "react";
 
 const Projects = () => (
     <div>
-        <div className="img1">
         Cosmic Colliders
-        <img src='./images/cosmic-colliders.png'/>
-        </div>
-    </div>
-)
+        <img src = "./images/cosmic-colliders.png" 
+        style = {{maxWidth:200, maxHeight:200}}
+        alt= "space website"/>
 
+        Hongry
+        <img src = "./images/cosmic-colliders.png" 
+        style = {{maxWidth:200, maxHeight:200}}
+        alt= "space website"/>
+    </div>
+
+
+
+
+    
+
+)
 export default Projects;

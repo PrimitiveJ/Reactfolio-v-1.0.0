@@ -1,20 +1,30 @@
 import React from "react";
 
+const backEndSkills= ["MongoDB", "Mongoose", "MySQL", "Sequelize","Express", "API's", "REST", "GraphQL", "Inquirer/Jest" ]
+const frontEndSkills = [ "Javascript", "HTML", "CSS", "Jquery", "React",  "Handlebars", "Node", "Bootstrap",]
+
+const listItems1 = frontEndSkills.map((frontEndSkill) =>
+<li key = {frontEndSkill.toString()}>
+{frontEndSkill}
+</li>,
+) 
+
+const listItems2 = backEndSkills.map((backEndSkill) =>
+<li key = {backEndSkill.toString()}>
+{backEndSkill}
+</li>,
+) 
+
+
 const Resume = () => (
   <div>
-    <h1>Resume</h1>
-    <p>
-      Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
-      turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
-      Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum
-      nunc, sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi justo
-      laoreet risus, luctus luctus mi lacus sit amet libero. Class aptent taciti sociosqu ad litora
-      torquent per conubia nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-      lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec placerat
-      accumsan mi, ut congue neque placerat eu. Donec nec ipsum in velit pellentesque vehicula sit
-      amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus non ullamcorper
-      iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
-    </p>
+    <h1>Download Resume Goes Here</h1>
+    <ul> <h1>Front End Skills</h1>
+        {listItems1}
+    </ul>
+    <ul> <h1>Back End Skills</h1>
+        {listItems2}
+    </ul>
   </div>
 );
 
