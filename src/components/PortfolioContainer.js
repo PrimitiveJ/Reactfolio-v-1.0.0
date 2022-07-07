@@ -5,14 +5,13 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import Icons from './Icons';
+
 
 function Portfolio() {
   const [currentPage, handlePageChange] = useState('Home');
 
   const renderPage = () => {
-    // Add a switch statement that will return the appropriate component of the 'currentPage'
-    // YOUR CODE HERE
-    //
     switch (currentPage) {
       case "About": 
       return <About/>;
@@ -22,20 +21,20 @@ function Portfolio() {
       return <Contact/>;
         case 'Resume':
       return <Resume/>;
+      case 'Icons':
+      return <Icons/>;
       default: return <Home/>;
     }
 
   };
 
   return (
-    <div>
+    <div className = "portfolio">
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <div>
         {
-          // Render the component returned by 'renderPage()'
-          // YOUR CODE HERE
-          //
           renderPage(currentPage)
+          
         }
       </div>
     </div>
