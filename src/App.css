@@ -107,8 +107,28 @@ h1 {
   transition: all ease .5s;
 }
 
+#name {
+  color:#e0d1f7;
+ -webkit-text-stroke-width: 1%;
+  -webkit-text-stroke-color: rgb(144, 120, 204);
+  background-color: black;
+}
+
+#email {
+  color:#e0d1f7;
+ -webkit-text-stroke-width: 1%;
+  -webkit-text-stroke-color: rgb(144, 120, 204);
+  background-color: black;
+
+}
+
 .message textarea {
- min-width: 300px;
+ min-width: 500px;
+ color:#e0d1f7;
+ -webkit-text-stroke-width: 1%;
+  -webkit-text-stroke-color: rgb(144, 120, 204);
+ background-color: black;
+ 
 }
 
 .portfolio {
@@ -121,14 +141,15 @@ h1 {
   background-size: cover;
   border-radius: 3%;
   border:4px solid #410096;
-  color:rgb(162, 81, 228);
+  color:rgb(244, 244, 244);
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(44, 44, 44);
+  -webkit-text-stroke-color: rgba(210, 243, 246, 0.602);
   min-height: 80vh;
   box-shadow:
        inset 0 -3em 3em rgba(0,0,0,0.1),
-             0 0  0 2px rgb(57, 57, 57),
+             0 0 0 4px rgb(57, 57, 57),
              0.3em 0.3em 1em rgba(0,0,0,0.3);
+             font-size: x-large;
 }
 
 a {
