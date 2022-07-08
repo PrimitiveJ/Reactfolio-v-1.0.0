@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/%7BReactfolio-v-1.0.0%7D/static/css/main.63804b5d.css",
-    "main.js": "/%7BReactfolio-v-1.0.0%7D/static/js/main.7e644e54.js",
+    "main.js": "/%7BReactfolio-v-1.0.0%7D/static/js/main.d91b907c.js",
     "static/media/background-black-lines.jpg": "/%7BReactfolio-v-1.0.0%7D/static/media/background-black-lines.97b8100fd026c0d66d77.jpg",
     "static/media/background-purple-mountain.png": "/%7BReactfolio-v-1.0.0%7D/static/media/background-purple-mountain.91e90b742433aa6d4461.png",
     "static/media/prog-bckgrd.jpg": "/%7BReactfolio-v-1.0.0%7D/static/media/prog-bckgrd.325c538c3c4a7728ef3d.jpg",
@@ -16,10 +16,10 @@
     "static/media/linkedin.svg": "/%7BReactfolio-v-1.0.0%7D/static/media/linkedin.0c8525f8317d8d9f4f465f85f1381fe8.svg",
     "static/media/stackoverflow.svg": "/%7BReactfolio-v-1.0.0%7D/static/media/stackoverflow.6c43cf175ad8dd1885fa9083aa38fcf0.svg",
     "main.63804b5d.css.map": "/%7BReactfolio-v-1.0.0%7D/static/css/main.63804b5d.css.map",
-    "main.7e644e54.js.map": "/%7BReactfolio-v-1.0.0%7D/static/js/main.7e644e54.js.map"
+    "main.d91b907c.js.map": "/%7BReactfolio-v-1.0.0%7D/static/js/main.d91b907c.js.map"
   },
   "entrypoints": [
     "static/css/main.63804b5d.css",
-    "static/js/main.7e644e54.js"
+    "static/js/main.d91b907c.js"
   ]
 }
