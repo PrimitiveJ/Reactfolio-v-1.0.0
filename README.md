@@ -28,5 +28,5 @@
   ## Contact
   hokecj@gmail.com
   This README.md was generated using READLEMETHIS.
-##Screenshot
-![screenshot](reactfolio.png)
+  ##Screenshot
+  ![screenshot](reactfolio.png)
