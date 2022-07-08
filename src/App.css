@@ -1,5 +1,4 @@
-@import url("https://www.gradientmagic.com/collection/rainbowstandard");
-@import url("https://fonts.googleapis.com/css?family=Lato:300");
+
 .App {
   text-align: center;
   font-family: 'Dosis', sans-serif;
@@ -7,7 +6,7 @@
 }
 
 .about {
-  background-image: url(../public/images/background-black-lines.jpg);
+  background-image: url(./components/images/background-black-lines.jpg);
   filter: brightness(20%);
   filter: contrast(120%);
   background-repeat: no-repeat;
@@ -16,7 +15,7 @@
 }
 
 .app-container {
-  background-image: url(../public/images/prog-bckgrd.jpg);
+  background-image: url(./components/images/prog-bckgrd.jpg);
    filter: brightness(20%);
    filter: contrast(120%);
   
@@ -25,7 +24,7 @@
 
 body {
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  background-image: url(../public/images/banner-dark-purple.jpg);
+  background-image: url(./components/images/banner-dark-purple.jpg);
     filter: brightness(80%);
     filter: contrast(120%);
   background-repeat: no-repeat;
@@ -68,7 +67,7 @@ h1 {
   display:flex;
   justify-content: space-between;
   border:4px solid rgb(81, 0, 221);
-  background-image: url(../public/images/background-black-lines.jpg);
+  background-image: url(./components/images/background-black-lines.jpg);
   filter: brightness(40%);
    filter: contrast(80%);
   background-repeat: no-repeat;
@@ -162,7 +161,7 @@ h1 {
 
 .portfolio {
   text-align: center;
-  background-image: url(../public/images/background-purple-mountain.png);
+  background-image: url(./components/images/background-purple-mountain.png);
   background-repeat: no-repeat;
   background-position: center;
    filter:saturate(120);
@@ -186,6 +185,11 @@ h1 {
              font-family: 'M PLUS 1 Code', sans-serif;
 }
 
+img{
+ max-width: 200;
+ max-height: 200;
+}
+
 a {
   color:#ae4cf4;
   -webkit-text-stroke-width: 1px;
@@ -197,7 +201,7 @@ a {
   justify-content: center;
   height:1%vh;
   width:1%vw;
-  background-image: url(../public/images/banner-purple.jpg);
+  background-image: url(./components/images/banner-purple.jpg);
   justify-content: space-evenly;
   color:#7900fa;
   
