@@ -1,7 +1,9 @@
+@import url("https://www.gradientmagic.com/collection/rainbowstandard");
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
 .App {
   text-align: center;
   font-family: 'Dosis', sans-serif;
-font-family: 'Orbitron', sans-serif;
+  font-family: 'M PLUS 1 Code', sans-serif;
 }
 
 .about {
@@ -17,6 +19,8 @@ font-family: 'Orbitron', sans-serif;
   background-image: url(../public/images/prog-bckgrd.jpg);
    filter: brightness(20%);
    filter: contrast(120%);
+  
+   
 }
 
 body {
@@ -27,7 +31,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'M PLUS 1 Code', sans-serif;
   font-weight: bolder;
   color:#1602f3;
   -webkit-text-stroke-width: 1%;
@@ -39,6 +43,8 @@ h1 {
   color:#f3f3f3;
   -webkit-text-stroke-width: 1%;
   -webkit-text-stroke-color: rgb(0, 0, 0);
+  font-family:fantasy;
+  
 }
 
 .App-link {
@@ -62,16 +68,26 @@ h1 {
   display:flex;
   justify-content: space-between;
   border:4px solid rgb(81, 0, 221);
-  background-image: url(../public/images/banner-dark-purple.jpg);
+  background-image: url(../public/images/background-black-lines.jpg);
   filter: brightness(40%);
    filter: contrast(80%);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   color:rgb(255, 255, 255);
   border-radius: 3%;
   box-shadow: #c4c4c4;
 }
+
+.border-gradient {
+  border: 5px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+
+
+
 
 
 
@@ -95,8 +111,8 @@ h1 {
   text-align: center;
   font-size: 1.2rem;
   word-break: break-word;
-  color: #d9d9d9;
-  border:2px solid #f9f9f9;
+  color: #00ceb6;
+  border:2px solid #434343;
   
 }
 
@@ -112,7 +128,8 @@ h1 {
   padding: .5rem;
   word-break: break-word;
   font-size: 1.25rem;
-  color: #f3f3f3;
+  color: #000000;
+  font-family: 'M PLUS 1 Code', sans-serif;
 }
 
 .box-caption:hover {
@@ -141,7 +158,6 @@ h1 {
  -webkit-text-stroke-width: 1%;
   -webkit-text-stroke-color: rgb(144, 120, 204);
  background-color: black;
- 
 }
 
 .portfolio {
@@ -151,7 +167,7 @@ h1 {
   background-position: center;
    filter:saturate(120);
    filter: brightness(50%);
-   filter: contrast(100%);
+   filter: contrast(135%);
   background-attachment: fixed;
   background-size: cover;
   background-blend-mode: soft-light;
@@ -167,12 +183,13 @@ h1 {
              0.3em 0.3em 1em rgba(0,0,0,0.3);
              font-size: x-large;
              font-weight: bolder;
+             font-family: 'M PLUS 1 Code', sans-serif;
 }
 
 a {
-  color:#fbfbfb;
+  color:#ae4cf4;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(0, 18, 87);
+  -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 .icon-container {
@@ -182,13 +199,15 @@ a {
   width:1%vw;
   background-image: url(../public/images/banner-purple.jpg);
   justify-content: space-evenly;
-  color:#fbfbfb;
+  color:#7900fa;
+  
 }
 
 .icon {
   display:flex;
   justify-content: space-between;
   margin-top: 20px;
+  
 }
 
 .icon:hover {

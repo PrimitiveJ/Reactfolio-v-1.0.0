@@ -29,6 +29,8 @@ function Portfolio() {
   };
 
   return (
+    <div class="container">
+  <a class="anim-link">
     <div className = "portfolio">
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <div>
@@ -38,6 +40,8 @@ function Portfolio() {
         }
       </div>
     </div>
+    </a>
+</div>
   );
 }
 
