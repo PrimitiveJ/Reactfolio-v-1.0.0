@@ -18,7 +18,7 @@ const listItems2 = backEndSkills.map((backEndSkill) =>
 
 const Resume = () => (
   <div>
-    <h1>Download Resume Goes Here</h1>
+    <a href = '#'> Resume</a>
     <ul> <h1>Front End Skills</h1>
         {listItems1}
     </ul>
