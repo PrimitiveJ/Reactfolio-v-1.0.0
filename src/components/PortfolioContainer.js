@@ -6,6 +6,7 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Icons from './Icons';
+import Footer from './Footer'
 
 
 function Portfolio() {
@@ -32,6 +33,7 @@ function Portfolio() {
     <div className="container">
     <div className = "portfolio">
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      
       <div>
         {
           renderPage(currentPage)
@@ -39,6 +41,7 @@ function Portfolio() {
         }
       </div>
     </div>
+    <footer><Footer currentPage={currentPage} handlePageChange={handlePageChange}/></footer>
 </div>
   );
 }

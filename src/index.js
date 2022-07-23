@@ -1,11 +1,11 @@
 import React from "react";
 import App from "./App";
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter } from "react-router-dom";
-
+// import { BrowserRouter } from "react-router-dom";
+console.log("LOADED MODULES")
 const container = document.getElementById('root');
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
-root.render(<BrowserRouter><App tab="home" /></BrowserRouter>);
+root.render(<App tab="home" />);
 
 
 
