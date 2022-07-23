@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Reactfolio-v-1.0.0/static/css/main.c52ef481.css",
-    "main.js": "/Reactfolio-v-1.0.0/static/js/main.7d7ea711.js",
+    "main.js": "/Reactfolio-v-1.0.0/static/js/main.e1a6fb8f.js",
     "static/media/background-black-lines.jpg": "/Reactfolio-v-1.0.0/static/media/background-black-lines.97b8100fd026c0d66d77.jpg",
     "static/media/background-purple-mountain.png": "/Reactfolio-v-1.0.0/static/media/background-purple-mountain.91e90b742433aa6d4461.png",
     "static/media/prog-bckgrd.jpg": "/Reactfolio-v-1.0.0/static/media/prog-bckgrd.325c538c3c4a7728ef3d.jpg",
@@ -17,10 +17,10 @@
     "static/media/linkedin.svg": "/Reactfolio-v-1.0.0/static/media/linkedin.0c8525f8317d8d9f4f465f85f1381fe8.svg",
     "static/media/stackoverflow.svg": "/Reactfolio-v-1.0.0/static/media/stackoverflow.6c43cf175ad8dd1885fa9083aa38fcf0.svg",
     "main.c52ef481.css.map": "/Reactfolio-v-1.0.0/static/css/main.c52ef481.css.map",
-    "main.7d7ea711.js.map": "/Reactfolio-v-1.0.0/static/js/main.7d7ea711.js.map"
+    "main.e1a6fb8f.js.map": "/Reactfolio-v-1.0.0/static/js/main.e1a6fb8f.js.map"
   },
   "entrypoints": [
     "static/css/main.c52ef481.css",
-    "static/js/main.7d7ea711.js"
+    "static/js/main.e1a6fb8f.js"
   ]
 }
